@@ -121,4 +121,3 @@ def search_movie_by_param(movie_type, release_year, genre):
                             'description': movie[1]})
     return result_list
 
-print(search_movie_by_param('TV Show', 2005, 'Drama'))
